@@ -70,6 +70,5 @@ txtChar.addEventListener('keydown', function(e){
     if (charCode == 222) txtChar.value = "'"; // single quote
     
     spnCode.innerHTML = 'KeyCode:  ' + charCode;
-    spnCode.innerHTML = 'KeyCode:  ' + charCode;
     return false;    
 });
