@@ -15,6 +15,7 @@ txtChar.addEventListener('keydown', function(e){
     if (charCode == 19) txtChar.value = "pause/break"; //  pause/break
     if (charCode == 20) txtChar.value = "caps lock"; //  caps lock
     if (charCode == 27) txtChar.value = "escape"; //  escape
+    if (charCode == 32) txtChar.value = "space"; // space
     if (charCode == 33) txtChar.value = "page up"; // page up, to avoid displaying alternate character and confusing people	         
     if (charCode == 34) txtChar.value = "page down"; // page down
     if (charCode == 35) txtChar.value = "end"; // end
